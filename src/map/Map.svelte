@@ -1,5 +1,5 @@
-<script>
-  import * as mapboxgl from "mapbox-gl";
+<script lang="ts">
+  import mapboxgl from "mapbox-gl";
   import { onMount } from "svelte";
   import 'mapbox-gl/dist/mapbox-gl.css';
 
