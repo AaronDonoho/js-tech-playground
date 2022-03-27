@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
-  <script type="module" src="./my-element.ts"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap" rel="stylesheet">
+  <script type="module" src="./my-timer.ts"></script>
   <style>
-    .mars {
-      --planet-color: red;
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 36px;
     }
   </style>
 </head>
 <body>
-  <my-element></my-element>
-  <hr />
-  <my-element class="mars" planet="Mars"></my-element>
+  <my-timer duration="7"></my-timer>
+  <my-timer duration="60"></my-timer>
+  <my-timer duration="300"></my-timer>
 </body>
